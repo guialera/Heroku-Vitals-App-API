@@ -3,31 +3,31 @@ const Schema = mongoose.Schema
 
 const vitalsDataSchema = new Schema({
     date: {
-        type: Number,
+        type: String,
         required: true
     },
     time: {
-        type: Number,
+        type: String,
         required: true
     },
     systolicBloodPressure: {
-        type: Number,
+        type: String,
         required: true
     },
     diastolicBloodPressure: {
-        type: Number,
+        type: String,
         required: true
     },
     heartRate: {
-        type: Number,
+        type: String,
         required: true
     },
     oxygenSaturation: {
-        type: Number,
+        type: String,
         required: true
     },
     sugarLevel: {
-        type: Number,
+        type: String,
         required: true
     }
 })
